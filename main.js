@@ -74,7 +74,7 @@ function sendMoves(board, websocket) {
 }
 
 function getWebSocketServer() {
-    if (window.location.host === "Nathanael-Whitrow.github.io") {
+    if (window.location.host === "nathanael-whitrow.github.io") {
         return "wss://my-connect4-websocket-tutorial.herokuapp.com/";
     } else if (window.location.host === "localhost:8000") {
         return "ws://localhost:8001/";
